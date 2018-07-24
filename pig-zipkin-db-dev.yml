@@ -12,7 +12,7 @@ spring:
 zipkin:
   collector:
     rabbitmq:
-      addresses: 60.205.228.187:15672
+      addresses: 60.205.228.187:5672
       password: charliepan
       username: charliepan
       queue: zipkin
